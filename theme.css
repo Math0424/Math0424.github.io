@@ -1,0 +1,48 @@
+/* #03091F #101E49 #2F3F73 #5D6C9D #A4AFD3 */
+
+.icons {color:rgb(182, 55, 55)}
+
+.theme-dark {color:#fff; background-color:#6b0505}
+.theme-action {color:#fff; background-color:#922121}
+
+body::-webkit-scrollbar{
+    width: 0px;
+}
+
+.theme-background {
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(238, 218, 218));
+}
+
+.box {
+    background-color: #ca6969;
+    border-radius: 5px;
+}
+
+
+.minibox {
+    background-color: #03091F;
+    color:rgb(233, 70, 70);
+    border-radius: 5px;
+}
+
+.code {
+    color: #f5d67b;
+    font-family: monospace;
+    text-align: left;
+}
+
+.bracket {color: #7bd2f5;}
+.field {color: #ee7e3c;}
+.method {color: #aaee3c;}
+.comment {color: #96959b;}
+
+.pre-code {
+    font-family: monospace;
+    text-align: left;
+
+    border-radius: 10px;
+    display: block;
+    background: #03091F;
+    padding: 10px;
+    max-width: 600px;
+}
